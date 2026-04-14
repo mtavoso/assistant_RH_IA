@@ -12,7 +12,6 @@ Contrairement aux approches classiques de recrutement, cette solution repose sur
 
 L’objectif final est de sélectionner l’équipe la plus efficace et équilibrée parmi toutes les combinaisons possibles.
 
---
 
 ## Problématique
 
@@ -21,7 +20,6 @@ Comment recruter une équipe projet à la fois compétente et soudée ?
 Le défi est double :
 - Maximiser les capacités techniques
 - Garantir une bonne cohésion humaine
-
 
 
 ## Méthodologie
@@ -41,7 +39,6 @@ Chaque candidat est évalué selon plusieurs critères :
 Ces données sont traitées via des systèmes flous afin d’obtenir un score individuel compris entre -20 et 20.
 
 
-
 ### 2. Évaluation de la cohésion
 
 La cohésion est mesurée à partir du modèle de personnalité Big Five :
@@ -55,7 +52,6 @@ La cohésion est mesurée à partir du modèle de personnalité Big Five :
 La compatibilité est évaluée pour chaque paire de candidats, puis agrégée pour obtenir un score global d’équipe.
 
 
-
 ### 3. Classement des équipes
 
 Toutes les équipes possibles sont générées (combinaisons de candidats).
@@ -67,14 +63,12 @@ Chaque équipe est évaluée selon :
 Un système flou final permet d’obtenir un score global et de classer les équipes.
 
 
-
 ## Technologies utilisées
 
 - Python
 - Bibliothèque fuzzylab
 - Logique floue (systèmes d’inférence)
 - Algorithmes de combinaison (itertools)
-
 
 
 ## Structure du projet
@@ -88,7 +82,6 @@ Un système flou final permet d’obtenir un score global et de classer les équ
 - Génération et évaluation des équipes
 - Classement final
 
-
 ## Exemple d’utilisation
 
 Le programme permet de :
@@ -98,7 +91,7 @@ Le programme permet de :
 3. Évaluer chaque équipe
 4. Retourner les meilleures équipes
 
----
+
 
 ## Résultats
 
@@ -107,8 +100,6 @@ Le système permet de :
 - Sélectionner automatiquement les meilleures équipes
 - Trouver un équilibre entre performance et compatibilité
 - Illustrer l’impact des soft skills dans un recrutement
-
----
 
 ## Limites
 
