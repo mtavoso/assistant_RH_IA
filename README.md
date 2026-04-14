@@ -1,4 +1,4 @@
-# SY10 – Recrutement d’une équipe projet optimale avec logique floue
+# SY10 – Recrutement d’une équipe projet optimale par logique floue
 
 ## Description
 
