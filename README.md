@@ -12,7 +12,7 @@ Contrairement aux approches classiques de recrutement, cette solution repose sur
 
 L’objectif final est de sélectionner l’équipe la plus efficace et équilibrée parmi toutes les combinaisons possibles.
 
----
+--
 
 ## Problématique
 
@@ -22,7 +22,7 @@ Le défi est double :
 - Maximiser les capacités techniques
 - Garantir une bonne cohésion humaine
 
----
+
 
 ## Méthodologie
 
@@ -40,7 +40,7 @@ Chaque candidat est évalué selon plusieurs critères :
 
 Ces données sont traitées via des systèmes flous afin d’obtenir un score individuel compris entre -20 et 20.
 
----
+
 
 ### 2. Évaluation de la cohésion
 
@@ -54,7 +54,7 @@ La cohésion est mesurée à partir du modèle de personnalité Big Five :
 
 La compatibilité est évaluée pour chaque paire de candidats, puis agrégée pour obtenir un score global d’équipe.
 
----
+
 
 ### 3. Classement des équipes
 
@@ -66,7 +66,7 @@ Chaque équipe est évaluée selon :
 
 Un système flou final permet d’obtenir un score global et de classer les équipes.
 
----
+
 
 ## Technologies utilisées
 
@@ -75,7 +75,7 @@ Un système flou final permet d’obtenir un score global et de classer les équ
 - Logique floue (systèmes d’inférence)
 - Algorithmes de combinaison (itertools)
 
----
+
 
 ## Structure du projet
 
@@ -88,7 +88,6 @@ Un système flou final permet d’obtenir un score global et de classer les équ
 - Génération et évaluation des équipes
 - Classement final
 
----
 
 ## Exemple d’utilisation
 
@@ -113,12 +112,10 @@ Le système permet de :
 
 ## Limites
 
-- Absence de prise en compte de la motivation
 - Sensibilité limitée aux petites variations de données
 - Complexité algorithmique importante pour un grand nombre de candidats
-- Résultats relatifs (classement interne uniquement)
+- Les chemins vers les fichiers .fis sont en dur dans le code et doivent être adaptés à chaque environnement.
 
----
 
 ## Perspectives d’amélioration
 
@@ -126,8 +123,6 @@ Le système permet de :
 - Optimisation des performances pour les grandes bases de candidats
 - Amélioration du système de décision final (seuils minimums)
 - Dynamisation du partitionnement flou
-
----
 
 ## Auteurs
 
