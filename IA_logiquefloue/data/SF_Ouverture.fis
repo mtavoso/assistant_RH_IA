@@ -1,0 +1,57 @@
+[System]
+Name='SF_Ouverture'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=16
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Ouverture1'
+Range=[0 100]
+NumMFs=4
+MF1='F':'trapmf',[0 0 10 30]
+MF2='PO':'trimf',[10 35 60]
+MF3='O':'trimf',[40 65 90]
+MF4='TO':'trapmf',[70 90 100 100]
+
+[Input2]
+Name='Ouverture2'
+Range=[0 100]
+NumMFs=4
+MF1='F':'trapmf',[0 0 10 30]
+MF2='PO':'trimf',[10 35 60]
+MF3='O':'trimf',[40 65 90]
+MF4='TO':'trapmf',[70 90 100 100]
+
+[Output1]
+Name='output1'
+Range=[0 1]
+NumMFs=4
+MF1='TM':'trimf',[-0.416666666666667 0 0.416666666666667]
+MF2='M':'trimf',[-0.101855185185185 0.314814814814815 0.731514814814815]
+MF3='B':'trimf',[0.221153439153439 0.637153439153439 1.05915343915344]
+MF4='TB':'trimf',[0.328042328042328 0.828042328042328 1.32804232804233]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 2 (1) : 1
+1 3, 3 (1) : 1
+1 4, 2 (1) : 1
+2 1, 2 (1) : 1
+2 2, 3 (1) : 1
+2 3, 3 (1) : 1
+2 4, 4 (1) : 1
+3 1, 3 (1) : 1
+3 2, 3 (1) : 1
+3 3, 4 (1) : 1
+3 4, 4 (1) : 1
+4 1, 2 (1) : 1
+4 2, 3 (1) : 1
+4 3, 4 (1) : 1
+4 4, 3 (1) : 1
