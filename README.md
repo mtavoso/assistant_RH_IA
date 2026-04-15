@@ -13,7 +13,7 @@ Contrairement aux approches classiques de recrutement, cette solution repose sur
 L’objectif final est de sélectionner l’équipe la plus efficace et équilibrée parmi toutes les combinaisons possibles.
 
 ## Remarque préalable
-Il s'agit d'un exercice de style de niveau tronc commun, le sujet étant plus l'utilisation de la logique floue que de la programmation python elle-même. L'application possède donc des limites connues en terme de qualité de code (grosse complexité, pas assez de modules, un seul fichier main etc.)
+Il s'agit d'un exercice de style de niveau tronc commun, le sujet étant plus l'utilisation de la logique floue que de la programmation python elle-même. 
 
 ## Problématique
 
@@ -106,7 +106,7 @@ Le système permet de :
 ## Limites
 
 - Complexité algorithmique importante pour un grand nombre de candidats
-- 
+
 
 
 ## Perspectives d’amélioration
